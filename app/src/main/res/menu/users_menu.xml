@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/topbar_broadcast"
+        android:title="@string/top_menu_broadcast_caption"
+        android:id="@+id/broadcastMenu"
+        app:showAsAction="always" />
+
+    <item android:icon="@drawable/topbar_back"
+        android:id="@+id/menuBack"
+        app:showAsAction="always"
+        android:title="@string/top_menu_back_caption"/>
+</menu>

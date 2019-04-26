@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/topbar_back"
+            android:onClick="closeItemPage"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemTitle"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:id="@+id/priceLinearLayout">
+                    <ImageView
+                        style="@style/itemPageDetailsIcon"
+                        android:src="@drawable/item_price" />
+
+                    <TextView
+                        style="@style/itemPageDetails"
+                        android:text="25000 تومان"
+                        android:id="@+id/itemPrice"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <ImageView
+                        style="@style/itemPageDetailsIcon"
+                        android:src="@drawable/item_place" />
+                    <TextView
+                        style="@style/itemPageDetails"
+                        android:text="ابریشم محله"
+                        android:id="@+id/itemPlace"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <ImageView
+                        style="@style/itemPageDetailsIcon"
+                        android:src="@drawable/item_time" />
+
+                    <TextView
+                        style="@style/itemPageDetails"
+                        android:id="@+id/itemShamsi"
+                        android:text="96/12/22 12:40"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <ImageView
+                        style="@style/itemPageDetailsIcon"
+                        android:src="@drawable/item_category"/>
+                    <TextView
+                        style="@style/itemPageDetails"
+                        android:text="خودرو"
+                        android:id="@+id/itemCategory"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <ImageView
+                        android:src="@drawable/item_phone"
+                        style="@style/itemPageDetailsIcon" />
+                    <TextView
+                        style="@style/itemPageDetails"
+                        android:text="09111111111"
+                        android:id="@+id/itemPhoneNumber"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemDescription"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="4">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_edit"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:onClick="editItem"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_change_category"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:onClick="changeCategory"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_change_place"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:onClick="changePlace"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_verify"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:onClick="acceptItem"
+                android:layout_weight="1"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:text="@string/button_telegram"
+                    android:background="@android:color/holo_orange_light"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:onClick="openTelegramProfile"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:id="@+id/telegramButton" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:text="@string/button_user_items"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:onClick="userItems"
+                    android:layout_weight="1"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_delete"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:onClick="deleteItem"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

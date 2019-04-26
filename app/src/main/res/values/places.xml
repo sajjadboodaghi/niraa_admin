@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>آخوندمحله</item>
+        <item>آسیاب‌سر</item>
+        <item>آغوزکتی</item>
+        <item>ابریشم محله</item>
+        <item>اربه کله</item>
+        <item>اربه‌گله</item>
+        <item>ارمو</item>
+        <item>ازارچال</item>
+        <item>اسالم‌دشت</item>
+        <item>استل‌کنار</item>
+        <item>اشکونه کوه</item>
+        <item>اشکه‌تچال</item>
+        <item>افی</item>
+        <item>اکراسر</item>
+        <item>اکنه</item>
+        <item>ایزکی</item>
+        <item>باغ‌ملی</item>
+        <item>بالاجلو</item>
+        <item>بالاجیرکوه</item>
+        <item>بامسی</item>
+        <item>بزشی‌محله</item>
+        <item>بصل‌کوه</item>
+        <item>بهارپشته</item>
+        <item>بیست‌متری</item>
+        <item>پایین‌مازو</item>
+        <item>پتک</item>
+        <item>پردسر</item>
+        <item>پس‌کرات</item>
+        <item>پلسه</item>
+        <item>پلهم‌جان</item>
+        <item>پیازکش</item>
+        <item>تازه‌پتک</item>
+        <item>ترمک</item>
+        <item>تلیج‌کوه</item>
+        <item>تمل</item>
+        <item>تنگدره</item>
+        <item>تنگ‌دره غربی</item>
+        <item>توبن</item>
+        <item>توساسان</item>
+        <item>توله‌سر</item>
+        <item>جلمه</item>
+        <item>جلو</item>
+        <item>جنت‌رودبار</item>
+        <item>جنگ سرا</item>
+        <item>جواهرده</item>
+        <item>جیرچابک</item>
+        <item>جیرود</item>
+        <item>چابک</item>
+        <item>چاک</item>
+        <item>چالک‌رود</item>
+        <item>چپرسر</item>
+        <item>چوتک</item>
+        <item>چورته</item>
+        <item>چوکاسراپشته</item>
+        <item>چهارصد دستگاه</item>
+        <item>چهل شهید</item>
+        <item>حسن‌سرا</item>
+        <item>حیدر محله</item>
+        <item>داق‌لنگه</item>
+        <item>دال‌خانی</item>
+        <item>دراززمین</item>
+        <item>درمود</item>
+        <item>دره‌دم</item>
+        <item>دریاپشته</item>
+        <item>دم‌سرا</item>
+        <item>دوجه‌گنه</item>
+        <item>دوسکول بن</item>
+        <item>دولمه</item>
+        <item>دیسر</item>
+        <item>راجوب</item>
+        <item>راش‌پشته</item>
+        <item>رامسر</item>
+        <item>رشولنگه</item>
+        <item>رضی محله</item>
+        <item>رمک</item>
+        <item>رنگاپشته</item>
+        <item>زروسرا</item>
+        <item>زروک</item>
+        <item>زکی محله</item>
+        <item>سادات‌شهر</item>
+        <item>سپارده</item>
+        <item>سخت سر</item>
+        <item>سده</item>
+        <item>سرای‌دشت</item>
+        <item>سرکوسرا</item>
+        <item>سرلیماک</item>
+        <item>سرمشک</item>
+        <item>سفیدتمشک</item>
+        <item>سلمل</item>
+        <item>سنگ‌پشته</item>
+        <item>سوته</item>
+        <item>سیاسان</item>
+        <item>سیاهکلرود</item>
+        <item>شادمرادمحله</item>
+        <item>شادمنصورمحله</item>
+        <item>شستا</item>
+        <item>طالش‌سرا</item>
+        <item>طالش‌محله‌فتوک</item>
+        <item>طلارسر شرقی</item>
+        <item>طلارسر غربی</item>
+        <item>عسل پشته</item>
+        <item>غریب محله</item>
+        <item>فیلدم</item>
+        <item>کانگ‌سر</item>
+        <item>کتالم</item>
+        <item>کرات‌کله‌لو</item>
+        <item>کردخیل</item>
+        <item>کرکت محله</item>
+        <item>کرکتک</item>
+        <item>کش‌گرما</item>
+        <item>کلاکولی</item>
+        <item>کلالم</item>
+        <item>کلایه</item>
+        <item>کلایه‌بن</item>
+        <item>کلک</item>
+        <item>کلیج‌کوه</item>
+        <item>کناررود</item>
+        <item>کوی پریان</item>
+        <item>کوی تعاونی</item>
+        <item>کهنه‌پتک</item>
+        <item>کیت</item>
+        <item>گالش‌محله</item>
+        <item>گاورمک</item>
+        <item>گاولیماک</item>
+        <item>گراسماسر</item>
+        <item>گرکش</item>
+        <item>گریکش</item>
+        <item>گل‌چیگی</item>
+        <item>گلین</item>
+        <item>گوگین</item>
+        <item>گوهرسرا</item>
+        <item>گهواره‌پشته</item>
+        <item>لاتدیسر</item>
+        <item>لات‌محله</item>
+        <item>لاتی</item>
+        <item>لپاسر</item>
+        <item>لپاسرک</item>
+        <item>لتر</item>
+        <item>لترنسا</item>
+        <item>لج</item>
+        <item>لرسانور</item>
+        <item>لرگ‌دشت</item>
+        <item>لمتر</item>
+        <item>لوسر</item>
+        <item>لیگاه</item>
+        <item>لیماک</item>
+        <item>لیماکده</item>
+        <item>لیماکش</item>
+        <item>لیماک‌لام</item>
+        <item>مازوباغ‌سر</item>
+        <item>مازولنگه</item>
+        <item>متکوه</item>
+        <item>مدک</item>
+        <item>مهرمیجه</item>
+        <item>میان‌لات</item>
+        <item>میانهاله</item>
+        <item>میج</item>
+        <item>نارنج بن</item>
+        <item>نارنه</item>
+        <item>نداک</item>
+        <item>نسارود</item>
+        <item>نمک‌دره</item>
+        <item>نیاسته</item>
+        <item>نی‌دشت</item>
+        <item>واچکلایه</item>
+        <item>ولسیالم</item>
+        <item>ولگام‌لم</item>
+        <item>ولنگان</item>
+        <item>ونه‌کوه</item>
+        <item>هریس</item>
+        <item>یازن</item>
+    </string-array>
+</resources>

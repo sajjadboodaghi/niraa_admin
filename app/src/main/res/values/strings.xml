@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">منیرا</string>
+
+    <string name="toolbar_title_login">ورود مدیر</string>
+    <string name="top_menu_users_caption">کاربران</string>
+    <string name="top_menu_broadcast_caption">ارسال پیام برای کاربران</string>
+    <string name="top_menu_suggests_caption">پیشنهادها</string>
+    <string name="top_menu_reports_caption">گزارشها</string>
+    <string name="top_menu_logout_caption">خروج</string>
+    <string name="top_menu_back_caption">برگشت</string>
+    <string name="top_menu_block_user_caption">بستن حساب کاربر</string>
+
+    <string name="toolbar_title_change_category">تغییر دسته</string>
+    <string name="toolbar_title_change_place">تغییر مکان</string>
+    <string name="toolbar_title_edit_item">ویرایش آگهی</string>
+    <string name="toolbar_title_suggests">پیام‌ها</string>
+    <string name="toolbar_title_reports">‌گزارش‌ها</string>
+    <string name="toolbar_title_users">کاربران</string>
+    <string name="toolbar_title_delete_item">حذف آگهی</string>
+    <string name="toolbar_title_broadcast">ارسال پیام برای کاربران</string>
+
+    <string name="button_save_new_category">ثبت دسته جدید</string>
+    <string name="button_save_new_place">ثبت مکان جدید</string>
+    <string name="button_update_item">ذخیره تغییرات آگهی</string>
+
+    <string name="edit_text_item_title_hint">عنوان</string>
+    <string name="edit_text_item_description_hint">توضیحات</string>
+    <string name="edit_text_item_price_hint">قیمت</string>
+    <string name="edit_text_hint_message_for_user">برای کاربر علت تأیید نشدن آگهی را توضیح دهید...</string>
+    <string name="edit_text_hint_broadcast_message">متن پیام...</string>
+    <string name="edit_text_hint_broadcast_type">نوع پیام (مثلا newversion)</string>
+
+    <string name="toast_logged_in">ورود با موفقیت انجام شد</string>
+    <string name="toast_logged_out">خروج از حساب انجام شد</string>
+
+    <string name="button_broadcast">ارسال پیام برای کاربران</string>
+    <string name="button_delete_item">حذف آگهی و ارسال یادداشت</string>
+    <string name="button_delete_suggest">حذف پیشنهاد</string>
+    <string name="button_delete_report">حذف گزارش</string>
+    <string name="button_see_item">مشاهده آگهی</string>
+    <string name="button_edit">ویرایش</string>
+    <string name="button_change_category">تغییر دسته</string>
+    <string name="button_change_place">تغییر مکان</string>
+    <string name="button_verify">تایید</string>
+    <string name="button_user_items">آگهی‌های کاربر</string>
+    <string name="button_telegram">تلگرام</string>
+    <string name="button_delete">حذف</string>
+
+    <string name="alert_dialog_title_notice">توجه</string>
+    <string name="alert_dialog_title_error">خطا</string>
+    <string name="alert_dialog_title_danger">هشدار</string>
+    <string name="alert_dialog_title_message">پیغام</string>
+
+    <string name="alert_dialog_button_try_again">تلاش دوباره</string>
+    <string name="alert_dialog_button_cancel">انصراف</string>
+    <string name="alert_dialog_button_understand">متوجه شدم</string>
+    <string name="alert_dialog_button_yes">بله</string>
+    <string name="alert_dialog_button_no">خیر، منصرف شدم</string>
+
+    <string name="alert_dialog_message_problem_in_server">متأسفانه پاسخ مناسبی از سرور ارسال نشد!</string>
+    <string name="alert_dialog_message_problem_with_connecting">متأسفانه مشکلی در برقراری ارتباط با سرور به وجود آمده است!</string>
+    <string name="alert_dialog_message_no_internet_access">دسترسی به اینترنت وجود ندارد!</string>
+    <string name="alert_dialog_message_accept_item">آیا میخواهید این آگهی را تایید کنید؟</string>
+    <string name="alert_dialog_message_delete_report">آیا از حذف این گزارش مطمئن هستید؟</string>
+    <string name="alert_dialog_message_delete_suggest">آیا از حذف این پیشنهاد مطمئن هستید؟</string>
+    <string name="alert_dialog_message_block_user">آیا واقعا می‌خواهید حساب این کاربر را مسدود نمایید؟</string>
+    <string name="alert_dialog_message_problem_subcategoy">متأسفانه مشکلی در دریافت زیردسته ها به وجود آمده است!</string>
+    <string name="alert_dialog_message_want_to_delete_item">مطمئن هستید که میخواهید این آگهی را حذف کنید؟</string>
+    <string name="alert_dialog_message_make_a_note_for_user">یک یادداشت برای کاربر بنویسید!</string>
+    <string name="alert_dialog_message_write_broadcast_message">پیامی را که میخواهید به همه‌ی کاربران ارسال کنید، بنویسید!</string>
+    <string name="alert_dialog_message_write_broadcast_type">نوع پیامی را که میخواهید به همه‌ی کاربران ارسال کنید، مشخص کنید!</string>
+    <string name="alert_dialog_message_sure_to_send_broadcast">آیا از ارسال این پیام برای تمام کاربران اطمینان کامل دارید؟</string>
+
+    <string name="progress_dialog_connecting">در حال برقراری ارتباط با سرور...</string>
+
+    <string name="toast_no_more_items">مورد جدیدی پیدا نشد</string>
+
+    <string name="spinner_place_title">مکان موردنظر را جستجو کنید</string>
+    <string name="spinner_place_close_button">بستن</string>
+
+    <!-- Story Page -->
+    <string name="please_wait_a_moment">لطفاً کمی صبر کنید...</string>
+    <string name="want_delete_story">آیا از حذف این تبلیغ اطمینان دارید؟</string>
+</resources>

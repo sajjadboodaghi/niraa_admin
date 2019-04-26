@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#135589</color>
+    <color name="colorAccent">#2A93D5</color>
+
+    <color name="extra1">#3DDAD7</color>
+    <color name="extra2">#AED9DA</color>
+    <color name="extra3">#EDFAFD</color>
+
+    <color name="toolbar_background">#135589</color>
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="recyclerview_background">#c0d3e1</color>
+
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background">#2A93D5</color>
+
+    <color name="regular_text">#000000</color>
+    <color name="notice_text">#135589</color>
+
+    <color name="item_title">#135589</color>
+    <color name="item_price">#2A93D5</color>
+    <color name="item_place">#555555</color>
+    <color name="item_shamsi">#555555</color>
+
+    <color name="navigation_header_background">#135589</color>
+    <color name="navigation_header_text">#FFFFFF</color>
+    <color name="navigation_header_border_bottom">#3DDAD7</color>
+
+    <color name="navigation_icons_tint">#2A93D5</color>
+
+    <color name="edittext_border">#2A93D5</color>
+
+    <color name="back_button_background_tint">#555555</color>
+
+    <color name="report_item_text">#999999</color>
+
+    <color name="line_background">#999999</color>
+
+    <color name="banner_background">#000000</color>
+    <color name="viewpager_background">#c0d3e1</color>
+    <color name="toolbar_separator">@color/white</color>
+
+    <color name="story_view_background">@color/colorAccent</color>
+    <color name="story_view_please_wait_text_color">@color/white</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
